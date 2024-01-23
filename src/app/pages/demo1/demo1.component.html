@@ -1,0 +1,24 @@
+<mat-card>
+  <p>{{title}}</p>
+  <p>Impresar1 with name passed in route name is {{impresarFromApi1.prenume}} </p>
+  <p>Impresar2 with name passed in params name is {{impresarFromApi2.prenume}} </p>
+  <p>Impresar3 with name passed in headers name is {{impresarFromApi3.prenume}} </p>
+
+  <mat-card>
+    <p> Impresars list </p>
+    <p *ngFor="let impresar of impresars" [routerLink]="['/demo2',impresar.jucatori_impresariati]">
+      Impresar name is {{impresar.prenume}} <br />
+      Impresar family name is {{impresar.nume_familie}} <br />
+      Number of players is {{impresar.jucatori_impresariati}}
+    </p>
+  </mat-card>
+  <mat-divider></mat-divider>
+  <mat-card>
+    <p> Impresars list </p>
+    <p *ngFor="let impresar of impresars">
+      Impresar name is {{impresar.prenume}} <br />
+      Impresar family name is {{impresar.nume_familie}} <br />
+      Number of players is {{impresar.jucatori_impresariati}}
+    </p>
+  </mat-card>
+</mat-card>

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.angular",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\core",
+    "\\src\\app\\core\\services",
+    "\\src\\app\\register",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\components",
+    "\\src\\app\\shared\\components\\component2"
+  ],
+  "PreviewInSolutionExplorer": false
+}
